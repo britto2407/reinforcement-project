@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 40rem;
+    padding-top: 1.3rem;
+    gap: 10rem;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:97%;
+    color: white;
+}
+.logo img{
+    width:8.7rem ;
+    padding-left: 3rem;
+    animation-name: change;
+
+}
+.leftmenu{
+    display: flex;
+    padding-top: 2rem;
+}
+.leftmenu a{
+    text-decoration: none;
+    color:white;
+    padding-left: 1rem;
+}
+.leftmenu a:hover{
+    color: gray;
+}
+.rightmenu{
+    display: flex;
+    gap: 15px;
+    padding-top: 2rem;
+}
+.rightmenu a{
+    text-decoration: none;
+    color: white;
+}
+.consult{
+    position: absolute;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    margin-top: 25rem;
+    margin-right: 52rem;
+    padding: 1.2rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    background-color: transparent;
+    font-size: smaller;
+}
+.consult a{
+    text-decoration: none;
+    color: white;
+}
+.consult:hover{
+    background-color: black;
+    color: black;
+}
+
+
+.line{
+    position: absolute;
+    margin-top: 32.5rem;
+    text-align: center;
+    width: 90%;
+    color: white;
+    background-color: transparent;
+}
+.why{
+    display: flex;
+    flex-direction: row;
+    gap: 28rem;
+    margin-top: 7rem;
+    margin-left: 4rem;
+}
+.why h1{
+      font-family:"EB Garamond", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 50px;
+      color: rgb(110, 107, 70);
+}
+.why p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding-top: 4rem;
+    margin-left: 4rem;
+}
+.pic img{
+    width: 24vw;
+    height: 89%;
+}
+.two p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    word-spacing: 1px;
+    line-height: 2.2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: rgb(101, 101, 101);
+}
+#enquire{
+    position: absolute;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin-left: 55.5rem;
+    margin-top: 21.9rem;
+    padding: 0.7rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    color: rgba(177, 174, 174, 0.831);
+    background-color: transparent;
+    font-size: smaller;
+    text-decoration: none;
+}
+#enquire:hover{
+    background-color: rgb(115, 62, 62);
+    color: white;
+}
+.Do-it{
+    background-image: url(./pic\ 4.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    margin-left:1.5rem ;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+.Do-it p{
+    padding-top: 4rem;
+    padding-left: 3rem;
+    color: white;
+}
+.Do-it h1{
+    padding-top: 15.5rem;
+    font-family:"EB Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+
+}
+.four{
+    display: flex;
+    flex-direction: row;
+}
+.pic-2{
+    width: 40%;
+}
+.pic-2 img{
+    height:37%;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+.wordings{
+    width: 60%;
+    padding-top: 3rem;
+}
+.word-head{
+    font-family: "Manrope", sans-serif ;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: small;
+    padding-left: 6rem;
+}
+.wordings h1{
+    font-family:"EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 55px;
+    color: rgb(110, 107, 70);
+    padding-top: 1.5rem;
+}
+.wordings p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    word-spacing: 1px;
+    line-height: 2rem;
+    padding-left: 6rem;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    color: rgb(114, 114, 114);
+}
+.wordings a{
+    position: absolute;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    padding: 1.1rem;
+    padding-left:3rem ;
+    padding-right: 3rem;
+    color: rgba(177, 174, 174, 0.831);
+    background-color: transparent;
+    font-size: smaller;
+    text-decoration: none;
+}
+.wordings a:hover{
+    background-color: rgb(115, 62, 62);
+    color: white;   
+}
+.five{
+    margin-top: -40rem;
+}
+.feedback{
+    font-family: "Manrope", sans-serif ;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: medium;
+    padding-left: 2rem;
+}
+.no-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+.no-1 h1{
+    font-family:"EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(110, 107, 70);
+    padding-top: 1.5rem;
+}
+.no-1-1 h1{
+    padding-left: 12rem;
+}
+.no-1-1 img{
+    padding-left: 13rem;
+}
+.no-1-2 h1{
+     padding-left: 8rem;
+}
+.no-1-2 img{
+padding-left: 11.5rem;
+}
+.no-1 img{
+    padding-top: 1rem;
+    width: 13rem;
+}
+
+.no-1 p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    word-spacing: 1px;
+    line-height: 1.9rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    color: rgb(114, 114, 114);
+}
+.no-1-1{
+    padding-top: 2rem;
+}
+.no-2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.no-2 h1{
+    font-family:"EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(110, 107, 70);
+    padding-top: 1.5rem;
+}
+.no-2-1 h1{
+    padding-left: 12.7rem;
+}
+.no-2-1 img{
+    padding-left: 13rem;
+}
+.no-2-2 h1{
+    padding-left: 9.5rem;
+}
+.no-2-2 img{
+    padding-left: 10rem;
+}
+.no-2 img{
+    padding-top: 1rem;
+    width: 13rem;
+}
+.no-2 p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    word-spacing: 1px;
+    line-height: 1.9rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    color: rgb(114, 114, 114);
+}
+.no-2-1{
+    padding-top: 2rem;
+}
+.six{
+    padding-top: 4rem;
+}
+.contact{
+    background-image: url(./pic\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+.contact h1{
+    padding-top: 5.5rem;
+    font-family:"EB Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    padding-left: 5rem;
+
+}
+.contact p{
+    font-family: "Manrope", sans-serif;
+    padding-top: 20rem;
+    font-size: medium;
+    padding-right: 7rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contact a{
+    position: absolute;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    margin-top: 25rem;
+    margin-left: 42rem;
+    padding: 1.1rem;
+    padding-left:3rem ;
+    padding-right: 3rem;
+    color: white;
+    background-color: transparent;
+    font-size: smaller;
+    text-decoration: none;
+}
+.contact a:hover{
+    background-color: white;
+    color: black;
+}
+.location h1{
+    font-family:"EB Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(110, 107, 70);
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 30px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    gap: 9rem;
+    margin-left: 2rem;
+}
+.address h1{
+    text-align: center;
+    font-family:"EB Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(110, 107, 70);
+    font-size: 30px;
+    margin-right: 3rem;
+}
+.address p{
+    font-family: "Manrope", sans-serif;
+    padding-top: 1rem;
+    font-size: medium;
+    letter-spacing: 1px;
+    color: gray;  
+    margin-left:1rem ;
+    margin-right:1rem ;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 8rem;
+}
+.insta hr{
+    width: 600px;
+    height: 0px;
+    margin-top: 10px;
+}
+.insta p{
+    font-family: "Manrope", sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    color: rgb(110, 107, 70);
+    margin-left: 3rem;
+}
+.nine{
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 3rem;
+    font-family: "Manrope", sans-serif;
+    color:  rgb(110, 107, 70);
+}
+.sub h1{
+    font-size: 35px;
+}
+.sub p{
+    font-size: 18px;
+}
+.N{
+    border: 1px solid black;
+    width: 10rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+}
+#Subs{
+    border: 1px solid transparent;
+    width: 7rem;
+    height: 2.4rem;
+    background-color: rgb(115, 62, 62) ;
+    color: white;
+}
+
+.end{
+    font-family: "Manrope", sans-serif;
+    font-size: larger;
+    letter-spacing: 2px;
+    color: rgb(110, 107, 70);
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(./pic\ 1.jpg);
+    }
+    20%{
+        background-image: url(./pic\ 2.jpg);
+    }
+    30%{
+        background-image: url(./pic\ 3.jpg);
+    }
+    40%{
+        background-image: url(./pic\ 5.jpg);
+    }
+    50%{
+        background-image: url(./pic\ 6.jpg);
+    }
+    60%{
+        background-image: url(./pic\ 8.jpg);
+    }
+    70%{
+        background-image: url(./pic\ 9.jpg);
+    }
+    80%{
+        background-image: url(./pic\ 10.jpg);
+    }
+    90%{
+        background-image: url(./pic\ 11.jpg);
+    }
+    100%{
+        background-image: url(./pic\ 5.jpg);
+    }
+    
+}
+.cardimg{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardimg1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footerhead ul{
+     
+      list-style: none;
+      display: flex;
+    }
+    .footerhead li {
+      margin-right: 20px;
+    }
+    
+    .footerhead a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.2s ease;
+  }
+  
+  .footerhead a:hover {
+    color: #666262;
+  }
+  .foot{
+    margin:30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footlogo{
+    
+    display: flex;
+    padding-right: 280px;
+  }
+  .column{
+    padding: 10px;
+  }
+  .line3{
+    borde:1px solid beige
+  }
+  .pl{
+    margin-top: 18px;
+    color: #666262;
+    font-family:"crimson text" ;
+      font-style: italic;
+      font-size:15px ;
+  }
+  .arrow{
+    margin-top: 18px;
+    color: #666262;
+  }
+  .whatsapp{
+    float:right;
+    position: -webkit-sticky;
+  }
+
+@media only screen and (max-width:600px){
+.top{
+    width:30.3rem;
+    height: 20rem;
+    gap: 0rem;
+    
+}
+.logo img{
+    width: 5rem;
+    padding-right: 1rem;
+}
+.leftmenu{
+    font-size: 6px;
+}
+.rightmenu{
+    font-size: 6px;
+}
+.consult{
+    position: absolute;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    margin-bottom: 25rem;
+    padding: 1.2rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    background-color: black;
+    font-size: smaller;
+}
+.line{
+    position: absolute;
+    margin-bottom: 32.5rem;
+    text-align: center;
+    width: 90%;
+}
+}
